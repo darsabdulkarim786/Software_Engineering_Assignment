@@ -144,3 +144,129 @@ summarization techniques.
 						    "THE END"							  
 							  
 							  
+
+							PAPER#3
+Title: Automated Mobile Apps Testing From Visual Perspective
+
+		"Authors"
+(i) Fend Xue 
+(School of Compuer Science and Engineering
+Nothwestern Polytechnical University)
+
+Conference Name: ISSTA (Sat 18-wed 22 july 2020).
+
+Publish Date: Sat 18 Jul 2020 10:20 - 10:40 at Zoom - Doctoral Symposium
+
+							"Summary"			
+This research paper is all about the current implementation of 
+automated mobile apps testing generally relies on internal program
+information, such as readng code or GUI layout files.
+This paper proposes an approach of automated mobile apps
+testing from a completely visual perspective.
+
+According to this research paper, unlike desktop software, mobile apps 
+are usually large in number, diverse in type, with frequent version.
+These features of mobile apps make testing more difficult, and it
+is even more urgent to seek effective automated testing approaches to 
+solve the current mobile apps testing.
+ 
+In this paper the main automated testing techniques for mobile apps are
+divided into the following three levels.
+
+					'The first level techniques'
+it includes follwing testing techniques:
+(i) Script-based testing: it enables the automatic execution of test
+cases defined by manually editing scripts. The test automation
+frameworks, such as Espresso, XCTest, Appium, can
+convert scripts into event streams and input AUT (App Under
+Test) to simulate test execution.  
+
+(ii) Record-replay testing: records the manually executed test
+cases and then plays them back for reuse of test execution.
+according to this research paper multiple tools are used to enhanse it,
+(a) 'RERAN' captures the low-level event stream including GUI events and sensor events, 
+then replays them for test execution.
+(b) 'SARA' uses the proposed self-replay and adaptive replay mechanisms 
+to achieve a high record-replay success rate for single and cross devices.
+(c) 'LIRAT' combines image processing technology to achieve cross-platform 
+record-replay testing 
+
+					'The second level techniques'
+According to this research paper this level  based on the first level
+and focus more on automating test case generation and optimization.
+
+it includes multiple types of testings:
+(i) Random testing: it uses a random strategy to explore and test
+apps. Although random, it automatically generates test inputs.
+In this regards in paper a tool named Monkey, a native testing tool 
+for Android, sends randomly selected GUI events and system events 
+for testing.
+ 
+(ii) Model-based testing: it automates testing by modeling apps
+behavior and using model generated test cases.
+i.e: MobiGUITAR: dynamically traverses AUT to build model and then
+generates test cases. 
+AMOGA: takes a static-dynamic approach to statically obtain the association 
+between GUI elements and events from the source code, and then dynamically
+and orderly explores AUT to generate model. 
+These models are usually represented by a finite state machine.
+	
+(iii) Search-based testing: it uses leverages heuristic named algorithms 
+to generate test cases and optimize test sequences. 
+in this regards a scientist named AGRippin founded by genetic and hill 
+climbing algorithms facilitates efficient and effective test case generation. 
+another scientist named Sapienz introduces Pareto multi-objective approach to 
+reach better test coverage with fewer test cases.
+
+(iv) Transfer-based testing: it is dedicated to cross-platform and
+cross-app use of test cases. TestMig uses similar comparison
+of GUI controls and events to realize the migration of test cases
+from IOS to Android. AppTestMigator and CraftDroid enable test cases 
+to run on multiple apps with similar functions through matching the 
+semantically similar of functions	
+
+					'The Third level techniques'
+according to this paper the third level techniques further introduce the 
+following feature of learning:
+
+(i) Traditional model learning-based testing:
+it is based on the traditional finite state machine modeling to add a 
+learning mechanism to achieve dynamic construction and generate onthe-fly
+test inputs. In this regard a scientist named SwiftHand employs an improved L*
+named algorithm to refine model during test execution. 
+another scientist DroidBot dynamically updates the model through the adapter 
+module and the brain module.
+
+(ii) Deep learning-based testing:
+it applies deep neural network technology to train an end-to-end 
+test model. in this regrad a scientist named Humanoid 
+designs a deep neural network model to generate human-like
+inputs by learning user interaction with apps. 
+DL-Droid proposed a deep learning system to detect malicious Android
+apps through dynamic analysis using stateful input generation.
+
+(iii) Reinforcement learning-based testing:
+it develops a reinforcement learning mechanism for mobile apps to
+automatically learn to obtain a test model by a trial-and-error
+way. exploit Q-learning algorithm to explore AUT and
+build test model.
+
+All these automated testing techniques have significantly
+promoted the development of mobile apps testing.	
+
+					'Research Methodology' 
+He used all  the above discussed methods as a Research Methodology that 
+evaluates the following results. 
+
+						   'RESULTS'
+After reading throughly this research paper I concluded
+follwing:
+Based on computer vision technology, they propose an automated mobile 
+apps testing approach from user perspective,which provides a new idea for the
+current mobile apps testing automation.
+This vision-based testing approach can provide a test capability similar to 
+manual testing to a certain extent, thereby alleviating the contradiction 
+between the huge test requirements of mobile apps and the relatively lack of
+testers.
+
+						   "THE END"
